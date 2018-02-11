@@ -10,4 +10,5 @@ const App = () => (
   </View>
 );
 
+console.ignoredYellowBox = ['Remote debugger'];
 AppRegistry.registerComponent('AwesomeProject', () => App);
